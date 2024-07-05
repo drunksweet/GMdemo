@@ -24,7 +24,16 @@
     <ClCompile Include="player.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="movement.cpp">
+    <ClCompile Include="isattacked.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitGameButtom.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -33,6 +42,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="basic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basicButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="specialButton.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

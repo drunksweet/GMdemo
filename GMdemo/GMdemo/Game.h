@@ -2,6 +2,7 @@
 
 #include "basic.h"
 
+
 // 声明 Animation 类
 class Animation {
 public:
@@ -9,29 +10,38 @@ public:
     ~Animation();
     void drawAnimatiom(int x, int y, int counter, int delta);
     void putimage_alpha(int x, int y, IMAGE* img);
+    void down_drawAnimatiom(int x, int y, int counter, int delta);
 private:
-    int interval_ms;
-    int cur;
-    int timer;
+    int Size_X ;
+    int Size_Y ;
+    int interval_ms ;
+    int cur ;
+    int timer ;
     std::vector<IMAGE*> frame_list;
+    std::vector<IMAGE*> down_frame_list;
 };
 
 // 声明 player 类
 class player {
 public:
-    player(int x, int y, int speed, int downspeed, int VVspeed);
-    ~player();
-    bool isjumping;
-    POINT play_pos;
-    int speed;
-    int downspeed;
-    double VVspeed;
-    double Vspeed;
-    bool face;
+	int health ;
+	bool isjumping ;
+	POINT play_pos ;
+	int speed ;
+	int downspeed ;
+	double VVspeed ;
+	double Vspeed ;
+	bool face ;
+	bool riattack ;
+	bool leattack ;
+	bool isdown ;
+
+	player(int x, int y, int speed, int downspeed, int VVspeed);
+	~player();
+	void move(Animation* two, player* p, int counter, int interval, char up, char down, char left, char right, char attack);
 };
 
-// 声明函数
-void move(Animation* one, player* p, int counter, int interval, char up, char down, char left, char right);
-void attack(player* P, char k);
 
-
+//
+void isattacked(player* p1, player* p2);
+void drawButton(IMAGE img_menu);

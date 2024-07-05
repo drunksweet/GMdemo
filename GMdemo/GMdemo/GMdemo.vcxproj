@@ -128,13 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="isattacked.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="movement.cpp" />
     <ClCompile Include="player.cpp" />
+    <ClCompile Include="QuitGameButtom.cpp" />
+    <ClCompile Include="StartGameButton.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basic.h" />
+    <ClInclude Include="basicButton.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="specialButton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

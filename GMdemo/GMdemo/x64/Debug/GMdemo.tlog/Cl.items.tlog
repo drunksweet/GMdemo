@@ -1,4 +1,7 @@
-E:\暑期实训\tangproject\GMdemo\GMdemo\Animation.cpp;E:\暑期实训\tangproject\GMdemo\GMdemo\x64\Debug\Animation.obj
-E:\暑期实训\tangproject\GMdemo\GMdemo\main.cpp;E:\暑期实训\tangproject\GMdemo\GMdemo\x64\Debug\main.obj
-E:\暑期实训\tangproject\GMdemo\GMdemo\move.cpp;E:\暑期实训\tangproject\GMdemo\GMdemo\x64\Debug\move.obj
-E:\暑期实训\tangproject\GMdemo\GMdemo\player.cpp;E:\暑期实训\tangproject\GMdemo\GMdemo\x64\Debug\player.obj
+D:\Gitlocal\GMdemo\tangcode\GMdemo\Animation.cpp;D:\Gitlocal\GMdemo\tangcode\GMdemo\x64\Debug\Animation.obj
+D:\Gitlocal\GMdemo\tangcode\GMdemo\Button.cpp;D:\Gitlocal\GMdemo\tangcode\GMdemo\x64\Debug\Button.obj
+D:\Gitlocal\GMdemo\tangcode\GMdemo\isattacked.cpp;D:\Gitlocal\GMdemo\tangcode\GMdemo\x64\Debug\isattacked.obj
+D:\Gitlocal\GMdemo\tangcode\GMdemo\main.cpp;D:\Gitlocal\GMdemo\tangcode\GMdemo\x64\Debug\main.obj
+D:\Gitlocal\GMdemo\tangcode\GMdemo\player.cpp;D:\Gitlocal\GMdemo\tangcode\GMdemo\x64\Debug\player.obj
+D:\Gitlocal\GMdemo\tangcode\GMdemo\QuitGameButtom.cpp;D:\Gitlocal\GMdemo\tangcode\GMdemo\x64\Debug\QuitGameButtom.obj
+D:\Gitlocal\GMdemo\tangcode\GMdemo\StartGameButton.cpp;D:\Gitlocal\GMdemo\tangcode\GMdemo\x64\Debug\StartGameButton.obj

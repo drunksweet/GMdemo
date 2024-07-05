@@ -1,3 +1,6 @@
-﻿  main.cpp
-E:\暑期实训\tangproject\GMdemo\GMdemo\main.cpp(36,13): warning C4101: “msg”: 未引用的局部变量
-  GMdemo.vcxproj -> E:\暑期实训\tangproject\GMdemo\x64\Debug\GMdemo.exe
+﻿  QuitGameButtom.cpp
+  StartGameButton.cpp
+  main.cpp
+D:\Gitlocal\GMdemo\tangcode\GMdemo\main.cpp(62,13): warning C4101: “msg”: 未引用的局部变量
+  正在生成代码...
+  GMdemo.vcxproj -> D:\Gitlocal\GMdemo\tangcode\x64\Debug\GMdemo.exe
