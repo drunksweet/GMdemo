@@ -29,17 +29,26 @@ void Button::ProcessEvent(const MOUSEMSG& msg) {
             break;
         }
     }
+#pragma comment(lib,"MSIMG32.LIB")
+//alphaÍ¨µÀÊä³ö
+void Button::putimage_alpha(int x, int y, IMAGE* img)
+{
+    int w = img->getwidth();
+    int h = img->getheight();
+    AlphaBlend(GetImageHDC(NULL), x, y, w, h,
+        GetImageHDC(img), 0, 0, w, h, { AC_SRC_OVER,0,255,AC_SRC_ALPHA });
+}
 
     void Button::Draw() {
         switch (status) {
         case Status::Idle:
-            putimage(region.left, region.top, &img_idle);
+            putimage_alpha(region.left, region.top, &img_idle);
             break;
         case Status::Hovered:
-            putimage(region.left, region.top, &img_hovered);
+            putimage_alpha(region.left, region.top, &img_hovered);
             break;
         case Status::Pushed:
-            putimage(region.left, region.top, &img_pushed);
+            putimage_alpha(region.left, region.top, &img_pushed);
             break;
         }
     }

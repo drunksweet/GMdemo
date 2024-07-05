@@ -6,7 +6,7 @@ bool is_game_started = false;
 bool running = true;
 
 //创建对象
-Animation one = Animation("./sucaiku/player/1.png", 1, 60);
+Animation one = Animation("./sucaiku/player/玛丽a/玛丽a%d.png", 8, 300);
 player p1 = player(100, 400, 20, 3, -40);
 player p2 = player(1080, 400, 20, 3, -40);
 IMAGE img_menu;
@@ -53,8 +53,8 @@ int main()
 	region_btn_quit_game.top = 550;
 	region_btn_quit_game.bottom = region_btn_quit_game.top + BUTTON_HEIGHT;
 
-	StartGameButton btn_start_game = StartGameButton(region_btn_start_game, _T("./sucaiku/ui/2.png"), _T("./sucaiku/ui/3.png"), _T("./sucaiku/ui/4.png"));
-	QuitGameButton btn_quit_game = QuitGameButton(region_btn_quit_game, _T("./sucaiku/ui/2.png"), _T("./sucaiku/ui/3.png"), _T("./sucaiku/ui/4.png"));
+	StartGameButton btn_start_game = StartGameButton(region_btn_start_game, _T("./sucaiku/ui/开始/2.png"), _T("./sucaiku/ui/开始/3.png"), _T("./sucaiku/ui/开始/4.png"));
+	QuitGameButton btn_quit_game = QuitGameButton(region_btn_quit_game, _T("./sucaiku/ui/关闭/1.png"), _T("./sucaiku/ui/关闭/2.png"), _T("./sucaiku/ui/关闭/3.png"));
 	loadimage(&img_menu, _T("./sucaiku/ui/01.png"));
 	while (running) {
 		static int counter = 0;

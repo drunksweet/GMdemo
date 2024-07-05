@@ -10,6 +10,7 @@ class Button {
 public:
     Button(RECT rect, LPCTSTR path_img_idle, LPCTSTR path_img_hovered, LPCTSTR path_img_pushed);
     void ProcessEvent(const MOUSEMSG& msg);
+    void putimage_alpha(int x, int y, IMAGE* img);
     void Draw();
 
 protected:
