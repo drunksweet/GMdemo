@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\",
+  "WorkspaceRootPath": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|solutionrelative:GMdemo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GMdemo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\movement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|solutionrelative:GMdemo\\movement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\movement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GMdemo\\movement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\Animation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|solutionrelative:GMdemo\\Animation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\Animation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GMdemo\\Animation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAD96F4D-0B99-4DA9-9E29-ECFFD9F3F44F}|GMdemo\\GMdemo.vcxproj|solutionrelative:GMdemo\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GMdemo\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,53 +36,48 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Animation.cpp",
-              "DocumentMoniker": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\Animation.cpp",
+              "DocumentMoniker": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\Animation.cpp",
               "RelativeDocumentMoniker": "GMdemo\\Animation.cpp",
-              "ToolTip": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\Animation.cpp",
+              "ToolTip": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\Animation.cpp",
               "RelativeToolTip": "GMdemo\\Animation.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T08:19:27.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T08:19:27.932Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\main.cpp",
+              "DocumentMoniker": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\main.cpp",
               "RelativeDocumentMoniker": "GMdemo\\main.cpp",
-              "ToolTip": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\main.cpp",
+              "ToolTip": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\main.cpp",
               "RelativeToolTip": "GMdemo\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T08:18:55.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T08:18:55.466Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "player.cpp",
-              "DocumentMoniker": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\player.cpp",
+              "DocumentMoniker": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\player.cpp",
               "RelativeDocumentMoniker": "GMdemo\\player.cpp",
-              "ToolTip": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\player.cpp",
+              "ToolTip": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\player.cpp",
               "RelativeToolTip": "GMdemo\\player.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T08:18:48.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T08:18:48.751Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "movement.cpp",
-              "DocumentMoniker": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\movement.cpp",
+              "DocumentMoniker": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\movement.cpp",
               "RelativeDocumentMoniker": "GMdemo\\movement.cpp",
-              "ToolTip": "E:\\\u6691\u671F\u5B9E\u8BAD\\tangproject\\GMdemo\\GMdemo\\movement.cpp",
+              "ToolTip": "D:\\Gitlocal\\summerproject-remote\\GMdemo\\GMdemo\\movement.cpp",
               "RelativeToolTip": "GMdemo\\movement.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T08:18:10.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T08:18:10.831Z"
             }
           ]
         }

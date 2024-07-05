@@ -3,7 +3,8 @@
 #include <graphics.h>
 #include <stdio.h>
 #include <vector>
-
+#include <time.h>  
+#include <windows.h>  
 #define WINDOW_WIDTH 1280
 #define WINDOW_HEIGHT 720
 

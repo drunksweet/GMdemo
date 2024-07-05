@@ -1,9 +1,10 @@
 #include "Game.h"
 
 
+
 player::player(int x, int y, int speed, int downspeed, int VVspeed):
-isjumping(0), play_pos({0,0}),speed(0),downspeed(0),VVspeed(0),face(0),health(20),
-Vspeed(0),leattack(0),riattack(0),isdown(0){
+isjumping(0), play_pos({0,0}),speed(0),downspeed(0),VVspeed(0),face(0),health(200),
+Vspeed(0),leattack(0),riattack(0),isdown(0),isattacking(0) {
 	play_pos.x = x;
 	play_pos.y = y;
 	this->downspeed = downspeed;
@@ -13,6 +14,10 @@ Vspeed(0),leattack(0),riattack(0),isdown(0){
 player::~player() {};
 
 void player::move(Animation* two, player* p, int counter, int interval, char up, char down, char left, char right, char attack) {
+	
+	static clock_t last_time = 0;
+	clock_t current_time = clock();
+	static bool isattack = 0;
 	enum GAMEINPUT
 	{
 		NOINPUT = 0X0,
@@ -51,7 +56,6 @@ void player::move(Animation* two, player* p, int counter, int interval, char up,
 		if (!(p->isjumping)) {
 			p->Vspeed = p->VVspeed;
 			p->isjumping = true;
-
 		}
 	}
 	if (p->isjumping) {
@@ -75,38 +79,71 @@ void player::move(Animation* two, player* p, int counter, int interval, char up,
 		p->isjumping = false;
 	}
 	if (input & DOWNINPUT)
-	{	
-		if (p->isjumping) {
-			two->drawAnimatiom(p->play_pos.x, p->play_pos.y, counter, interval);
-		}
-		else {
-			p->play_pos.y = p->play_pos.y + 100;
-			p->isdown = true;
-			two->down_drawAnimatiom(p->play_pos.x, p->play_pos.y, counter, interval);
-		}
-		
+	{
+		p->play_pos.y = p->play_pos.y + 100;
+		p->isdown = true;
 	}
 	else {
-		p->isdown = 0;
-		two->drawAnimatiom(p->play_pos.x, p->play_pos.y, counter, interval);
+		p->isdown = false;
 	}
 	if (input & ATTACK)
-		if (input & ATTACK)
+	{
+		p->isattacking = true;
+		if (isattack == false)
 		{
-			if (!p->face) {
+			last_time = current_time;
+			isattack = true;
+			
+			if (!p->face)
+			{
 				rectangle(p->play_pos.x + 100, p->play_pos.y + 20, p->play_pos.x + 250, p->play_pos.y + 80);
 				p->riattack = true;
 			}
-			else {
+			else
+			{
 				rectangle(p->play_pos.x, p->play_pos.y + 20, p->play_pos.x - 150, p->play_pos.y + 80);
 				p->leattack = true;
 			}
 		}
-		else {
+		if (current_time - last_time > 100)
+		{
+
+			isattack = false;
+		}
+		if (current_time - last_time > 10)
+		{
 			p->leattack = 0;
 			p->riattack = 0;
-
+		}
 	}
+	
+	if (p->isattacking == true) {
+		two->drawAnimation3(p->play_pos.x, p->play_pos.y, counter, interval);
+		
+	}
+	else{
+		if (p->face == true) {//×ó
+			if (p->isdown == true) {//¶×
 
+
+			}
+			else {
+				two->drawAnimation2(p->play_pos.x, p->play_pos.y, counter, interval);
+			}
+		}
+		else {
+			if (p->isdown == true) {
+				two->drawAnimation1(p->play_pos.x, p->play_pos.y - 100, counter, interval);
+
+			}
+			else {
+				two->drawAnimation(p->play_pos.x, p->play_pos.y, counter, interval);
+
+			}
+
+
+
+		}
+	}
 
 }
